@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+.nav-links svg {
+    border: 1px soild red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 590;
+    padding: 0 3px;
+    color: rgb(104, 44, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 984px) {
+    nav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav img{
+        width: 50%;
+        align-items: center;
+        align-self: center;
+
+    }
+}
+@media screen and (max-width: 734px) {
+    .nav-links{
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Navbar End */
+/* Banner */
+.banner{
+    background-color: #E6E7E8;
+}
+.banner svg{
+    position: relative;
+    top: 20px;
+    right: 35px;
+    margin: 0 8px;
+}
+.banner a{
+    font-size: 17px;
+    color:black ;
+}
+.social{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.banner img {
+    width: 100%;
+}
+
+/* Banner End */
+
+/* Home Info */
+
+.info {
+    background-color: #E6E7E8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px 30px;
+}
+
+/* Vision */
+
+.vision {
+    text-align: center;
+
+}
+
+.vision h1 {
+    font-size: 55px;
+}
+
+.vision h4 {
+    font-size: 21px;
+    margin: 30px 0;
+}
+
+/* Mission */
+
+.mission {
+    text-align: center;
+
+}
+
+.mission h1 {
+    font-size: 55px;
+}
+
+.mission h4 {
+    font-size: 21px;
+    margin: 30px 0;
+}
